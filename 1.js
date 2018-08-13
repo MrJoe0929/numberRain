@@ -15,7 +15,7 @@ function numberRain() {
 // 初始化
 numberRain.prototype.init = function () {
     _this = this;
-    this.height = window.screen.availHeight;
+    this.height = document.body.clientHeight;
     $(this.eleDom).css({
         height: _this.height 
     })
